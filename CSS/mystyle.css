@@ -1,0 +1,92 @@
+header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+header h1,h2,nav {
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+header nav a{
+    display: inline-block;
+    color: rgb(214, 168, 0);
+
+
+    padding:10px;
+    margin:2%;
+}
+header nav a:hover{
+    background-color: #C0C0C0;
+}
+header nav{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 64%, rgba(39,42,42,1) 100%);
+}
+#Active-L{
+    background-color: #C0C0C0;
+}
+#profile_pic{
+    display: block;
+    height: auto;
+    max-width: 125px;
+    float: right;
+    margin-left: -10%
+}
+/*main{
+    margin-right: 8%;
+    margin-left: 8%;
+}*/
+
+
+li h3, li h4{
+    margin-left: 2%;
+}
+
+#logo{
+    display: inline-block;
+    max-width:80px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+#logo1{
+    display: inline-block;
+    max-width:80px;
+    vertical-align: middle;
+    margin-left: 20px;
+    max-height: 20%;
+}
+
+#when , #where{
+    display: inline-block;
+    margin-right: 1%;
+    margin-left: 2%;
+    font-size: 120%;
+}
+#Experience p, #Education p{
+    margin-left: 2%;
+    text-align: justify;
+}
+#Education>ul>li>p>a:hover, ul>li>.media-body>h4>a:hover {
+
+    color: #C0C0C0;
+    font-size: 105%;
+}
+.carousel-cell {
+  max-width: : 33%;
+  height: 350px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+.carousel-cell> img{
+    height: 100%;
+}
