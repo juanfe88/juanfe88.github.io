@@ -90,3 +90,14 @@ li h3, li h4{
 .carousel-cell> img{
     height: 100%;
 }
+iframe{
+    position: absolute; 
+    display:block;  
+    min-height: 100vh;  
+    background-color: #f2f0ea; 
+    border: none;
+    overflow:hidden;
+}
+#active{
+    color:#ffffff;
+}
