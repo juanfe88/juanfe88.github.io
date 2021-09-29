@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Juan Felipe Arias Aguirre - projects</title>
-        <link rel="stylesheet" href="CSS/mystyle.css">
+        <link rel="stylesheet" href="CSS/project_syling.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="External_Libraries/flickity.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="aos-master/dist/aos.css"
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.css" rel="stylesheet" />
+    <script src="aos-master/dist/aos.js">AOS.init();</script>
+
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="0">
@@ -54,19 +58,48 @@
                 </ul>
             </div>
         </nav>
+        <style >
+            .JumboHeaderImg{
+                background-image: url(IMG/proj.jpg);
+                background-size: cover;
+                color: #ffffff;
+                min-height: 300px;
+            }
+        </style>
+        <div class="jumbotron text-center JumboHeaderImg">
 
+            <h1 class="display-4">Projects</h1>
     </header>
-    <main>
-        <section id="lda" class="container">
-        <h1>Modified Linear Discriminant Analysis (LDA)</h1>
-        
-            <embed src="Certf/poster_col.pdf" width="900" height="1200" 
-            type="application/pdf"/>
+    <main >
+        <div id='background'>
+            <section id="lda" class="container">
+                <div>
+                    <h1>Modified Linear Discriminant Analysis (LDA)</h1>
+                </div>
+                <div class='container'>
+                    
+                    <p style='text-align:justify; margin:2%'>
+                        The mean and the covariance matrix are parameters considered by the supervised classification method Lineal Discriminant Analysis, 
+                        also known as LDA. This study explores a robust and nonparametric approach to estimate them. The main contribution is the estimation of the variability structure
+                        as the product between a non-parametric estimation of the correlation matrix and a robust estimator of the
+                        standard deviations. The performance of the proposed method was evaluated with synthetic data, simulated
+                        predictors and previously known labels while incorporating outlier-like datapoints. The novel LDA version
+                        introduced, is compared against the classic and in every scenario presented a better performance in terms of
+                        false positive rate, accuracy, sensitivity and ROC curve. Results of said research were published in Colombia's National University's 
+                        <a href='https://ciencias.medellin.unal.edu.co/eventos/coloquioestadistica/memorias-xii-coloquio-estadistica/memorias.html'>XII Coloquium of Statistics</a>
+                        The Poster down below sumarises the main results of the study and was presented alongside with the article during the event.
+                    </p>
+                </div>
+                <embed src="Certf/poster_col.pdf" width="900" height="900" type="application/pdf"/>
             </section>
-        <section id="AQI_app" class="container"><h1> Modelling Pollution Based on Traffic and Weather Variables</h1>
-        <iframe height=200% width=100%   scrolling="no" frameborder="no" src="https://juan-arias.shinyapps.io/APP_AQI/?_ga=2.258046218.1695582108.1628425816-1847218736.1628425816"/>
-        </section>
-        
-            
-
+            <section id="AQI_app" class="container">
+                <h1> Modelling Pollution Based on Traffic and Weather Variables</h1>
+                <iframe height=200% width=100%   scrolling="no" frameborder="no" src="https://juan-arias.shinyapps.io/APP_AQI/?_ga=2.258046218.1695582108.1628425816-1847218736.1628425816"/>
+            </section>
+        </div>
     </main>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    
+
+</body>
+</html>

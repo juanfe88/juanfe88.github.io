@@ -1,0 +1,59 @@
+header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2%;
+
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+header h1,h2,nav {
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+header nav a{
+    display: inline-block;
+    color: rgb(214, 168, 0);
+
+
+    padding:10px;
+    margin:2%;
+}
+header nav a:hover{
+    background-color: #C0C0C0;
+}
+header nav{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 64%, rgba(39,42,42,1) 100%);
+}
+#Active-L{
+    background-color: #C0C0C0;
+}
+iframe{
+    position: absolute; 
+    display:block;  
+    min-height: 100vh;  
+    background-color: #f2f0ea; 
+    border: none;
+    overflow:hidden;
+}
+#active{
+    color:#ffffff;
+}
+#lda, #AQI_app{
+    text-align: center;
+    justify-content: center;
+}
+#AQI_app{
+    margin-top: 8%;
+}
+#background{
+background-color:rgba(122,125,123,.2);
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
